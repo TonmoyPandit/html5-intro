@@ -14,3 +14,12 @@ nav li a{
     color: black;
 
 }
+/* nested menu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+}
+nav li:hover .dropdown{
+    display: block;
+}
